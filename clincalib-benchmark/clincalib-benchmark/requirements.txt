@@ -1,0 +1,1 @@
+kaggle-benchmarks>=0.1.0

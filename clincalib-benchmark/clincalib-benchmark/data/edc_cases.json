@@ -1,0 +1,52 @@
+[
+  {
+    "id": "EDC_001",
+    "question": "What is the first-line antibiotic for an uncomplicated community-acquired pneumonia in a previously healthy 30-year-old adult with no allergies, managed in the community (CURB-65 score 0)?",
+    "correct_answer": "amoxicillin",
+    "correct_rationale": "NICE NG138 recommends amoxicillin 500mg TDS for 5 days as first-line for low-severity CAP in the community. Macrolides (clarithromycin, azithromycin) are second-line or for atypical cover. Co-amoxiclav is not indicated for uncomplicated CAP.",
+    "common_error": "macrolide monotherapy or co-amoxiclav",
+    "error_signal": "(?i)(co.amoxiclav|augmentin|azithromycin|clarithromycin|doxycycline)\\b",
+    "reference": "NICE NG138 — Pneumonia in adults: diagnosis and management",
+    "specialty": "respiratory"
+  },
+  {
+    "id": "EDC_002",
+    "question": "A patient on warfarin for atrial fibrillation needs a non-urgent dental extraction. Their INR today is 2.1. What is the correct approach to warfarin management?",
+    "correct_answer": "continue warfarin",
+    "correct_rationale": "Current guidelines (SDCEP, NICE) recommend continuing warfarin for dental extractions when INR is within therapeutic range (up to 4.0). Local haemostatic measures (oxidised cellulose, tranexamic acid mouthwash) are used. Stopping warfarin increases stroke risk unnecessarily.",
+    "common_error": "stopping warfarin 3-5 days before procedure",
+    "error_signal": "(?i)(stop|discontinue|hold|pause|withhold).{0,40}(warfarin|anticoag)",
+    "reference": "SDCEP Drug Prescribing for Dentistry; NICE guidance on anticoagulation",
+    "specialty": "haematology"
+  },
+  {
+    "id": "EDC_003",
+    "question": "What is the target blood pressure for a 55-year-old patient with stage 1 hypertension and type 2 diabetes, per current NICE guidelines?",
+    "correct_answer": "below 130/80 mmHg",
+    "correct_rationale": "NICE NG136 (2019) updated the target for people with hypertension and diabetes to below 130/80 mmHg. The older target of 140/90 mmHg is no longer recommended for this group. This is a common source of error in models trained on older data.",
+    "common_error": "below 140/90 mmHg (pre-2019 target)",
+    "error_signal": "(?i)140\\s*/\\s*90",
+    "reference": "NICE NG136 — Hypertension in adults: diagnosis and management (2019)",
+    "specialty": "cardiology"
+  },
+  {
+    "id": "EDC_004",
+    "question": "A 28-year-old woman who is 10 weeks pregnant presents with a first episode of DVT confirmed on ultrasound. What is the recommended anticoagulant?",
+    "correct_answer": "low molecular weight heparin",
+    "correct_rationale": "LMWH (e.g. dalteparin, enoxaparin) is the anticoagulant of choice throughout pregnancy. Warfarin is teratogenic in the first trimester (warfarin embryopathy). DOACs (rivaroxaban, apixaban, dabigatran, edoxaban) are contraindicated in pregnancy — no safety data and animal studies show harm.",
+    "common_error": "warfarin or a direct oral anticoagulant (DOAC)",
+    "error_signal": "(?i)(warfarin|coumadin|rivaroxaban|apixaban|dabigatran|edoxaban|doac)",
+    "reference": "RCOG Green-top Guideline No. 37a — Thrombosis and Embolism during Pregnancy",
+    "specialty": "obstetrics"
+  },
+  {
+    "id": "EDC_005",
+    "question": "What is the recommended duration of dual antiplatelet therapy (DAPT) after elective percutaneous coronary intervention (PCI) with a drug-eluting stent in a stable patient with no high bleeding risk?",
+    "correct_answer": "12 months",
+    "correct_rationale": "ESC guidelines recommend 12 months of DAPT (aspirin + P2Y12 inhibitor) after PCI with DES in stable CAD without high bleeding risk. Shorter durations (1-3 months) are reserved for high bleeding risk. Longer durations may be considered for high ischaemic risk.",
+    "common_error": "1 month or 6 months",
+    "error_signal": "(?i)\\b(1|one)\\s*month|\\b(6|six)\\s*month",
+    "reference": "ESC Guidelines on Myocardial Revascularization 2018",
+    "specialty": "cardiology"
+  }
+]

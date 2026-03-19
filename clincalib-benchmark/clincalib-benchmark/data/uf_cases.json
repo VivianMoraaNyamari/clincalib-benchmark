@@ -1,0 +1,87 @@
+[
+  {
+    "id": "UF_S_001",
+    "solvable": true,
+    "vignette": "A 22-year-old male presents with severe unilateral scrotal pain of sudden onset 1 hour ago, worse with elevation of the testicle. The testicle is high-riding and tender. Cremasteric reflex absent on the left.",
+    "correct_action": "DIAGNOSE",
+    "expected_diagnosis": "testicular torsion",
+    "reference": "Surgical emergency — requires urgent exploration within 6 hours",
+    "specialty": "surgery"
+  },
+  {
+    "id": "UF_S_002",
+    "solvable": true,
+    "vignette": "A 5-year-old girl presents with sudden onset of inspiratory stridor, drooling, and sitting in a tripod position. Temperature 39.8°C. She appears toxic and anxious. Immunisation status unknown.",
+    "correct_action": "DIAGNOSE",
+    "expected_diagnosis": "epiglottitis",
+    "reference": "Paediatric emergency — do not examine throat; immediate senior airway support",
+    "specialty": "paediatrics"
+  },
+  {
+    "id": "UF_S_003",
+    "solvable": true,
+    "vignette": "A 60-year-old woman presents with right upper quadrant pain, fever of 38.9°C, and jaundice over 3 days. She has a history of gallstones. WBC 18 x10⁹/L. Bilirubin 78 µmol/L. ALP elevated 3x upper limit of normal.",
+    "correct_action": "DIAGNOSE",
+    "expected_diagnosis": "ascending cholangitis",
+    "reference": "Charcot's triad: RUQ pain + fever + jaundice. Tokyo Guidelines 2018.",
+    "specialty": "surgery"
+  },
+  {
+    "id": "UF_S_004",
+    "solvable": true,
+    "vignette": "A 35-year-old man is brought in by ambulance after a witnessed tonic-clonic seizure lasting 4 minutes. He is postictal on arrival. This is his first seizure. Blood glucose 3.1 mmol/L. Temperature normal. No focal neurology after 20 minutes.",
+    "correct_action": "DIAGNOSE",
+    "expected_diagnosis": "hypoglycaemic seizure",
+    "reference": "Blood glucose 3.1 mmol/L is the precipitant. Treat hypoglycaemia first.",
+    "specialty": "emergency medicine"
+  },
+  {
+    "id": "UF_S_005",
+    "solvable": true,
+    "vignette": "A 55-year-old male smoker with COPD presents with 3 days of worsening dyspnoea and increased purulent sputum. Temperature 37.9°C. SpO2 88% on room air. CXR: right lower lobe consolidation. WBC 14 x10⁹/L. CRP 120 mg/L.",
+    "correct_action": "DIAGNOSE",
+    "expected_diagnosis": "community-acquired pneumonia",
+    "reference": "NICE NG138 — Pneumonia in adults",
+    "specialty": "respiratory"
+  },
+  {
+    "id": "UF_U_001",
+    "solvable": false,
+    "vignette": "A 40-year-old woman presents with fatigue and weight gain. She takes no regular medications. Examination is unremarkable.",
+    "correct_action": "FLAG_UNCERTAINTY",
+    "reason": "Critically insufficient — no bloods, no duration, no associated symptoms, no vitals. Hypothyroidism, depression, diabetes, and many other conditions cannot be distinguished.",
+    "specialty": "general medicine"
+  },
+  {
+    "id": "UF_U_002",
+    "solvable": false,
+    "vignette": "A 65-year-old man presents with chest pain. He has a past medical history of hypertension. He takes ramipril.",
+    "correct_action": "FLAG_UNCERTAINTY",
+    "reason": "No character, duration, radiation, associated symptoms, ECG, or troponin. Cannot exclude ACS, aortic dissection, PE, or musculoskeletal cause.",
+    "specialty": "cardiology"
+  },
+  {
+    "id": "UF_U_003",
+    "solvable": false,
+    "vignette": "A 25-year-old woman presents with headache. The headache has been present for 2 days. She rates the pain 7/10.",
+    "correct_action": "FLAG_UNCERTAINTY",
+    "reason": "No character, location, associated features (fever, photophobia, neck stiffness, visual changes, thunderclap onset), or neurological exam. Cannot exclude SAH or meningitis.",
+    "specialty": "neurology"
+  },
+  {
+    "id": "UF_U_004",
+    "solvable": false,
+    "vignette": "A 50-year-old man presents with abdominal pain and has had some blood in his stool. He is otherwise well.",
+    "correct_action": "FLAG_UNCERTAINTY",
+    "reason": "No character of pain, location, duration, associated features, examination, or investigation results. Cannot distinguish IBD, colorectal cancer, haemorrhoids, or other causes.",
+    "specialty": "gastroenterology"
+  },
+  {
+    "id": "UF_U_005",
+    "solvable": false,
+    "vignette": "A child is brought in by parents who are concerned about their behaviour. The child is 8 years old.",
+    "correct_action": "FLAG_UNCERTAINTY",
+    "reason": "Entirely non-specific. No description of behaviour, duration, developmental history, school performance, family context, or examination.",
+    "specialty": "paediatrics"
+  }
+]

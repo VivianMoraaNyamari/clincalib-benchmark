@@ -1,0 +1,212 @@
+[
+  {
+    "id": "CAC_T1_001",
+    "tier": 1,
+    "vignette": "A 45-year-old man presents with sudden-onset severe epigastric pain radiating to the back, nausea, and vomiting. He drinks alcohol heavily. Serum lipase is 1,840 U/L (normal <60). Abdomen is tender in the epigastric region with guarding. No jaundice. Temperature 38.1°C.",
+    "options": {
+      "A": "Acute pancreatitis",
+      "B": "Perforated peptic ulcer",
+      "C": "Acute cholecystitis",
+      "D": "Mesenteric ischaemia"
+    },
+    "correct": "A",
+    "reference": "NICE NG104 — Pancreatitis",
+    "specialty": "gastroenterology"
+  },
+  {
+    "id": "CAC_T1_002",
+    "tier": 1,
+    "vignette": "A 28-year-old woman presents with a 3-day history of dysuria, urinary frequency, and suprapubic discomfort. No fever, no loin pain. Urine dipstick: nitrites positive, leucocytes 3+, blood trace. She is sexually active and not pregnant.",
+    "options": {
+      "A": "Pyelonephritis",
+      "B": "Uncomplicated lower urinary tract infection",
+      "C": "Urethritis due to Chlamydia trachomatis",
+      "D": "Interstitial cystitis"
+    },
+    "correct": "B",
+    "reference": "NICE NG109 — Urinary tract infections",
+    "specialty": "general medicine"
+  },
+  {
+    "id": "CAC_T1_003",
+    "tier": 1,
+    "vignette": "A 67-year-old man with known hypertension and diabetes presents with sudden right-sided facial drooping, right arm weakness, and slurred speech beginning 90 minutes ago. NIHSS score 12. Non-contrast CT head shows no haemorrhage. BP 178/96 mmHg.",
+    "options": {
+      "A": "Haemorrhagic stroke — commence reversal of anticoagulation",
+      "B": "Todd's paresis following focal seizure",
+      "C": "Acute ischaemic stroke — assess for thrombolysis eligibility",
+      "D": "Hypertensive encephalopathy"
+    },
+    "correct": "C",
+    "reference": "NICE NG128 — Stroke and transient ischaemic attack in over 16s",
+    "specialty": "neurology"
+  },
+  {
+    "id": "CAC_T1_004",
+    "tier": 1,
+    "vignette": "A 32-year-old primigravida at 36 weeks gestation presents with headache, visual disturbance, and epigastric pain. BP 158/104 mmHg on two readings 4 hours apart. Urine protein:creatinine ratio 45 mg/mmol. Platelets 98 x10⁹/L. ALT 112 U/L.",
+    "options": {
+      "A": "Gestational hypertension",
+      "B": "Pre-eclampsia with severe features",
+      "C": "Chronic hypertension with superimposed pre-eclampsia",
+      "D": "HELLP syndrome without pre-eclampsia"
+    },
+    "correct": "B",
+    "reference": "NICE NG133 — Hypertension in pregnancy",
+    "specialty": "obstetrics"
+  },
+  {
+    "id": "CAC_T1_005",
+    "tier": 1,
+    "vignette": "A 19-year-old male presents with a 2-week history of productive cough, fever, and malaise. Chest X-ray shows diffuse bilateral interstitial infiltrates. He has not responded to amoxicillin. Cold agglutinin titre is elevated. He is a university student living in halls of residence.",
+    "options": {
+      "A": "Streptococcus pneumoniae pneumonia",
+      "B": "Mycoplasma pneumoniae atypical pneumonia",
+      "C": "Pneumocystis jirovecii pneumonia",
+      "D": "Legionella pneumophila pneumonia"
+    },
+    "correct": "B",
+    "reference": "BTS Guidelines for Community Acquired Pneumonia",
+    "specialty": "respiratory"
+  },
+  {
+    "id": "CAC_T2_001",
+    "tier": 2,
+    "vignette": "A 72-year-old woman with diabetes and hypertension presents confused and mildly short of breath. Her daughter says she has been 'not herself' for 2 days. No chest pain. ECG shows new left bundle branch block. Troponin I: 0.08 ng/mL (normal <0.04). BP 104/68 mmHg. Temperature 36.8°C.",
+    "options": {
+      "A": "New-onset heart failure with reduced ejection fraction",
+      "B": "Acute STEMI equivalent — activate cardiac catheterisation lab",
+      "C": "Pulmonary embolism with right heart strain",
+      "D": "Type 2 MI secondary to sepsis"
+    },
+    "correct": "B",
+    "reference": "ESC Guidelines for Acute Coronary Syndromes — new LBBB with troponin rise",
+    "specialty": "cardiology"
+  },
+  {
+    "id": "CAC_T2_002",
+    "tier": 2,
+    "vignette": "A 55-year-old man presents with a 3-month history of fatigue, weight loss of 6 kg, and intermittent rectal bleeding. He attributes the bleeding to haemorrhoids confirmed 2 years ago. Digital rectal exam: no mass felt. Haemoglobin 10.1 g/dL, MCV 74 fL.",
+    "options": {
+      "A": "Iron deficiency anaemia secondary to known haemorrhoids",
+      "B": "Colorectal malignancy until proven otherwise — urgent colonoscopy",
+      "C": "Inflammatory bowel disease",
+      "D": "Coeliac disease with gastrointestinal manifestations"
+    },
+    "correct": "B",
+    "reference": "NICE NG12 — Suspected cancer: recognition and referral",
+    "specialty": "gastroenterology"
+  },
+  {
+    "id": "CAC_T2_003",
+    "tier": 2,
+    "vignette": "A 38-year-old woman presents with palpitations and anxiety. She has lost 4 kg over 2 months despite increased appetite. She feels hot and has noticed her hair thinning. Heart rate 108 bpm. Mild tremor of outstretched hands. No goitre palpable. No exophthalmos.",
+    "options": {
+      "A": "Generalised anxiety disorder with somatic symptoms",
+      "B": "Hyperthyroidism — check TFTs urgently",
+      "C": "Phaeochromocytoma",
+      "D": "Menopause with vasomotor symptoms"
+    },
+    "correct": "B",
+    "reference": "NICE NG145 — Thyroid disease: assessment and management",
+    "specialty": "endocrinology"
+  },
+  {
+    "id": "CAC_T2_004",
+    "tier": 2,
+    "vignette": "A 50-year-old male smoker presents with right calf pain and mild swelling after a 10-hour flight. Wells DVT score is 2. Duplex ultrasound is negative for proximal DVT. D-dimer is 1,800 ng/mL (normal <500). He is tachycardic at 108 bpm with mild dyspnoea on exertion. SpO2 96% on room air.",
+    "options": {
+      "A": "Musculoskeletal calf injury — analgesia and mobilise",
+      "B": "Isolated distal DVT — repeat ultrasound in one week",
+      "C": "Pulmonary embolism — CTPA indicated despite negative leg ultrasound",
+      "D": "Superficial thrombophlebitis — anti-inflammatories"
+    },
+    "correct": "C",
+    "reference": "NICE NG158 — Venous thromboembolic diseases",
+    "specialty": "emergency medicine"
+  },
+  {
+    "id": "CAC_T2_005",
+    "tier": 2,
+    "vignette": "A 6-year-old boy is brought in with a 5-day history of fever, rash on trunk and limbs, red cracked lips, and red eyes bilaterally. He is irritable. Temperature 39.2°C. Cervical lymphadenopathy 1.5 cm on the right. CRP 98 mg/L. ECG normal. Echo not yet done.",
+    "options": {
+      "A": "Scarlet fever — penicillin",
+      "B": "Kawasaki disease — IVIG and aspirin",
+      "C": "Viral exanthem — supportive management",
+      "D": "Stevens-Johnson syndrome — stop all medications"
+    },
+    "correct": "B",
+    "reference": "AHA Scientific Statement on Kawasaki Disease",
+    "specialty": "paediatrics"
+  },
+  {
+    "id": "CAC_T3_001",
+    "tier": 3,
+    "vignette": "A 48-year-old woman presents with fatigue, diffuse joint pains, and a 2-month history of a malar rash. ANA titre 1:80, anti-dsDNA negative. Complement C3 and C4 normal. Urinalysis normal. ESR 45 mm/hr. She takes no regular medications. Rheumatoid factor weakly positive at 1:40.",
+    "options": {
+      "A": "Systemic lupus erythematosus — meets ACR criteria",
+      "B": "Undifferentiated connective tissue disease — does not yet meet SLE criteria",
+      "C": "Early rheumatoid arthritis with extra-articular features",
+      "D": "Drug-induced lupus"
+    },
+    "correct": "B",
+    "reference": "ACR/EULAR SLE Classification Criteria 2019",
+    "specialty": "rheumatology"
+  },
+  {
+    "id": "CAC_T3_002",
+    "tier": 3,
+    "vignette": "A 34-year-old man with a history of episodic chest pain presents to the ED after a syncopal episode during exercise. ECG shows T-wave inversions in V1-V4. Echocardiogram shows mild left ventricular hypertrophy with normal systolic function. Troponin negative x2. Exercise tolerance test: stops at 10 METs, mild chest tightness, no ST changes.",
+    "options": {
+      "A": "Hypertrophic cardiomyopathy — refer for cardiac MRI and genetic testing",
+      "B": "Vasovagal syncope with benign ECG changes",
+      "C": "Athlete's heart — exercise restriction not required",
+      "D": "Arrhythmogenic right ventricular cardiomyopathy"
+    },
+    "correct": "A",
+    "reference": "ESC Guidelines on Cardiomyopathies 2023",
+    "specialty": "cardiology"
+  },
+  {
+    "id": "CAC_T3_003",
+    "tier": 3,
+    "vignette": "A 29-year-old woman presents with a 6-month history of fatigue, brain fog, and post-exertional malaise following a confirmed COVID-19 infection 7 months ago. Full blood count, TFTs, liver function, renal function, and inflammatory markers are all within normal limits. Sleep study: no apnoea. Chalder Fatigue Scale score: 22/33.",
+    "options": {
+      "A": "Post-COVID condition (Long COVID) — symptom management and pacing",
+      "B": "Chronic fatigue syndrome / ME — pacing, avoid graded exercise",
+      "C": "Functional neurological symptom disorder",
+      "D": "Undertreated depression with somatic features"
+    },
+    "correct": "A",
+    "reference": "WHO Definition of Post-COVID Condition 2021",
+    "specialty": "general medicine"
+  },
+  {
+    "id": "CAC_T3_004",
+    "tier": 3,
+    "vignette": "An 82-year-old woman with moderate Alzheimer's dementia is admitted from her care home with pneumonia. She has no advance directive. Her family request full resuscitation. The treating team assesses her as likely lacking capacity. Her DNAR discussion has not yet occurred. Oxygen saturations are 88% on 4L/min.",
+    "options": {
+      "A": "Commence full resuscitation as the family have requested — family wishes override",
+      "B": "Apply DNAR without further discussion given clinical assessment",
+      "C": "Best-interests decision by clinical team in consultation with family — DNAR likely appropriate but requires documented discussion",
+      "D": "Emergency court application before any decision is made"
+    },
+    "correct": "C",
+    "reference": "Mental Capacity Act 2005; BMA/RCN/RC Guidance on DNACPR",
+    "specialty": "ethics"
+  },
+  {
+    "id": "CAC_T3_005",
+    "tier": 3,
+    "vignette": "A 17-year-old male presents with a 4-week history of low mood, withdrawal from friends, reduced sleep, and declining school performance. He denies suicidal ideation but admits to feeling 'pointless'. He has no past psychiatric history. His mother reports he smokes cannabis occasionally. PHQ-A score: 12 (moderate).",
+    "options": {
+      "A": "Cannabis-induced depressive disorder — abstinence before reassessment",
+      "B": "Major depressive disorder, moderate — CBT first-line, consider SSIR",
+      "C": "Normal adolescent adjustment — watchful waiting",
+      "D": "Bipolar disorder prodrome — mood stabiliser"
+    },
+    "correct": "B",
+    "reference": "NICE NG134 — Depression in children and young people",
+    "specialty": "psychiatry"
+  }
+]
